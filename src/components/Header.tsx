@@ -74,7 +74,7 @@ export const Header = () => {
                             <li key={item}>
                                 <a
                                     href={`#${item.toLowerCase()}`}
-                                    className="text-base md:text-lg font-semibold leading-8 text-white hover:underline"
+                                    className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-hover-link-white"
                                 >
                                     {item}
                                 </a>
@@ -103,7 +103,7 @@ export const Header = () => {
                         <li key={item}>
                             <a
                                 href={`#${item.toLowerCase()}`}
-                                className="text-base font-semibold text-white hover:underline"
+                                className="text-base font-semibold text-white"
                                 onClick={closeMenu}
                             >
                                 {item}
