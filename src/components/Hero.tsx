@@ -2,7 +2,13 @@ import imageHero from '../assets/img/hero/hero.webp';
 
 export const Hero = () => {
     return (
-        <section className="flex justify-center items-center px-4 md:px-6 xl:px-8 py-9 md:py-12 xl:px-16 bg-white w-full h-[768px] md:h-[1024px] xl:h-[896px]">
+        <section
+            aria-labelledby="hero-title"
+            className="flex justify-center items-center px-4 md:px-6 xl:px-8 py-9 md:py-12 xl:px-16 bg-white w-full h-[768px] md:h-[1024px] xl:h-[896px]"
+        >
+            <h1 id="hero-title" className="sr-only">
+                Curso en vivo de Cranbelo
+            </h1>
             <div className="relative rounded-2xl border-[1.6px] md:border-[1.8px] xl:border-2 w-full md:max-w-[768px] xl:max-w-[1024px] aspect-[3/4] md:aspect-[2/3] xl:aspect-[16/9] max-h-full overflow-hidden">
                 <img
                     className="w-full h-full object-cover rounded-2xl"
