@@ -1,74 +1,79 @@
 import type { Course } from "../types/Course";
 
-import image1 from '../assets/img/courses/container-image.png';
+import marketingDigital from "../assets/img/courses/marketing-digital-avanzado.webp";
+import cienciaDeDatos from "../assets/img/courses/ciencia-de-datos.webp";
+import disenoUXUI from "../assets/img/courses/diseño-ux-ui.webp";
+import programacionBackend from "../assets/img/courses/programación-backend.webp";
+import programacionFrontend from "../assets/img/courses/programacion-frontend.webp";
+import chatbot101 from "../assets/img/courses/chatbot-1.webp";
+import seo from "../assets/img/courses/estrategia-de-seo.webp";
+import gestionDeProyectosAgiles from "../assets/img/courses/metodologías-ágiles.webp";
+import fundamentosDeMachineLearning from "../assets/img/courses/machine-learning.webp";
 
 const courses: Course[] = [
   {
     id: 1,
-    title: 'Desarrollo Web Full Stack',
-    image: image1,
-    description: 'Aprende a crear aplicaciones web completas desde cero, dominando el frontend y el backend.'
+    title: "Marketing Digital Avanzado",
+    image: marketingDigital,
+    description:
+      "Aprende a crear campañas publicitarias en Facebook, Instagram, Marketplace, y más. Domina las herramientas digitales para posicionar tu marca en el mercado.",
   },
   {
     id: 2,
-    title: 'Introducción a la Inteligencia Artificial',
-    image: image1,
-    description: 'Descubre los fundamentos de la IA, el Machine Learning y sus aplicaciones en el mundo real.'
+    title: "Ciencia de Datos",
+    image: cienciaDeDatos,
+    description:
+      "Domina el análisis de datos y aprende a tomar decisiones basadas en información sólida. Desde Python hasta el uso de SQL y visualización de datos, este curso te prepara para el futuro.",
   },
   {
     id: 3,
-    title: 'Ciencia de Datos con Python',
-    image: image1,
-    description: 'Explora el análisis de datos, la visualización y el uso de librerías como Pandas y Matplotlib.'
+    title: "Diseño UX/UI",
+    image: disenoUXUI,
+    description:
+      "String Descubre cómo diseñar interfaces atractivas y centradas en el usuario. Aprende a utilizar herramientas como Figma y Adobe XD para crear experiencias digitales memorables.",
   },
   {
     id: 4,
-    title: 'Desarrollo de Apps Móviles con React Native',
-    image: image1,
-    description: 'Crea aplicaciones nativas para iOS y Android utilizando un solo código base con React Native.'
+    title: "Programación Backend",
+    image: programacionBackend,
+    description:
+      "Desarrolla el lado servidor de las aplicaciones con tecnologías como Node.js, Python, y bases de datos relacionales. Domina la lógica y arquitectura que soporta las aplicaciones modernas.",
   },
   {
     id: 5,
-    title: 'Ciberseguridad y Hacking Ético',
-    image: image1,
-    description: 'Adquiere las habilidades necesarias para proteger sistemas y redes, y conviértete en un experto en seguridad.'
+    title: "Programación Frontend",
+    image: programacionFrontend,
+    description:
+      "Conviértete en un desarrollador frontend experto. Aprende HTML, CSS, JavaScript y frameworks como React para crear aplicaciones web interactivas y modernas.",
   },
   {
     id: 6,
-    title: 'Cloud Computing con AWS',
-    image: image1,
-    description: 'Aprende a desplegar y gestionar aplicaciones en la nube con Amazon Web Services, el líder del mercado.'
+    title: "Chatbot 101",
+    image: chatbot101,
+    description:
+      "Aprende a crear chatbots que mejoren la experiencia del usuario en tu sitio web o aplicación. Domina herramientas como Dialogflow y técnicas de procesamiento de lenguaje natural.",
   },
   {
     id: 7,
-    title: 'UX/UI Design: Diseño de Experiencia de Usuario',
-    image: image1,
-    description: 'Domina los principios del diseño centrado en el usuario y crea interfaces intuitivas y atractivas.'
+    title: "Estrategías de SEO",
+    image: seo,
+    description:
+      "Optimiza tu sitio web para motores de búsqueda y mejora su visibilidad. Aprende las mejores prácticas para atraer tráfico orgánico y mejorar tu posicionamiento.",
   },
   {
     id: 8,
-    title: 'Blockchain y Criptomonedas',
-    image: image1,
-    description: 'Entiende la tecnología detrás de Bitcoin y Ethereum y sus aplicaciones más allá de las finanzas.'
+    title: "Gestión de Proyectos Ágiles",
+    image: gestionDeProyectosAgiles,
+    description:
+      "Conoce las metodologías ágiles como Scrum y Kanban. Gestiona proyectos de manera eficiente y entrega valor continuamente a tus clientes.",
   },
   {
     id: 9,
-    title: 'Fundamentos de Redes y Sistemas Operativos',
-    image: image1,
-    description: 'Conoce cómo funcionan las redes de computadoras y los sistemas operativos a un nivel fundamental.'
+    title: "Fundamentos de Machine Learning",
+    image: fundamentosDeMachineLearning,
+    description:
+      "Introducción al aprendizaje automático. Aprende a construir modelos predictivos utilizando Python y librerías como scikit-learn.",
   },
-  {
-    id: 10,
-    title: 'Introducción a DevOps',
-    image: image1,
-    description: 'Descubre cómo automatizar el ciclo de vida del software, desde el desarrollo hasta la operación.'
-  },
-  {
-    id: 11,
-    title: 'Programación con C# y .NET',
-    image: image1,
-    description: 'Aprende a desarrollar aplicaciones robustas y escalables con uno de los frameworks más populares.'
-  }
 ];
 
 export default courses;
