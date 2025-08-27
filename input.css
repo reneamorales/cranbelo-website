@@ -79,6 +79,10 @@
   @apply text-xs leading-lh-xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base font-medium;
 }
 
+.btn-contact-form {
+  @apply w-auto font-bold px-5 py-2 md:px-6 md:py-2.5 xl:px-7 xl:py-3 hover:bg-orange/90 transition-colors;
+}
+
 /* Ocultar scrollbar en todos los navegadores */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
