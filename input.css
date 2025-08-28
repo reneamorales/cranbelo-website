@@ -20,6 +20,8 @@
   --golden-ratio: 1.618;
 
   /* line height with golden ratio */
+
+  ---spacing-lh-2xs: calc(var(--golden-ratio) * 10px);
   --spacing-lh-xs: calc(var(--golden-ratio) * 12px);
   --spacing-lh-sm: calc(var(--golden-ratio) * 14px);
   --spacing-lh-base: calc(var(--golden-ratio) * 16px);
@@ -89,7 +91,7 @@
 }
 
 .text-content-footer {
-  @apply text-xxs leading-lh-xxs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base;
+  @apply text-xxs leading-lh-2xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base;
 }
 
 .container-inner {
