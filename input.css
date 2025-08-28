@@ -23,6 +23,7 @@
   --spacing-lh-xs: calc(var(--golden-ratio) * 12px);
   --spacing-lh-sm: calc(var(--golden-ratio) * 14px);
   --spacing-lh-base: calc(var(--golden-ratio) * 16px);
+  --spacing-lh-xl: calc(var(--golden-ratio) * 18px);
 
   --spacing-lh-: calc(var(--golden-ratio) * 24px);
   --spacing-lh-: calc(var(--golden-ratio) * 32px);
@@ -81,6 +82,18 @@
 
 .btn-contact-form {
   @apply w-auto font-bold px-5 py-2 md:px-6 md:py-2.5 xl:px-7 xl:py-3 hover:bg-orange/90 transition-colors;
+}
+
+.title-footer {
+  @apply font-bold text-xs leading-lh-xs md:text-base md:leading-lh-base xl:text-lg xl:leading-lh-xl text-orange;
+}
+
+.text-content-footer {
+  @apply text-xxs leading-lh-xxs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base;
+}
+
+.container-inner {
+  @apply p-2 md:p-4 xl:p-5 gap-2 md:gap-3 xl:gap-4;
 }
 
 /* Ocultar scrollbar en todos los navegadores */
