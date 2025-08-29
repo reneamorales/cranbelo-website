@@ -91,11 +91,31 @@
 }
 
 .text-content-footer {
-  @apply text-xxs leading-lh-2xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base;
+  @apply text-xxs leading-lh-2xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base hover:text-green-300 transition-colors;
 }
 
 .container-inner {
   @apply p-2 md:p-4 xl:p-5 gap-2 md:gap-3 xl:gap-4;
+}
+
+.container-inner-content {
+  @apply gap-1.5 md:gap-2 xl:gap-3;
+}
+
+.container-social-media {
+  @apply border-[1.6px] border-zinc-400 rounded-[3px] w-6 md:w-7 xl:w-10 h-6 md:h-7 xl:h-10 aspect-square;
+}
+
+.icons-social-media {
+  @apply text-zinc-400 hover:text-zinc-200 active:text-zinc-50 size-4 md:size-4.5 xl:size-6;
+}
+
+.text-cta-wsp {
+  @apply font-bold italic underline;
+}
+
+.icon-wsp {
+  @apply size-6 md:size-9 xl:size-10 bg-[#18DA14] rounded-3xl;
 }
 
 /* Ocultar scrollbar en todos los navegadores */
