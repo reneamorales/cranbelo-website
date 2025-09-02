@@ -1,0 +1,99 @@
+:root {
+  /* Primary Colors */
+  --color-primary-cran-50: #FFF1E5;
+  --color-primary-cran-100: #FFDAB7;
+  --color-primary-cran-200: #FFC28A;
+  --color-primary-cran-300: #FFAA5C;
+  --color-primary-cran-400: #FF922E;
+  --color-primary-cran-500: #FF7A00;
+  --color-primary-cran-600: #D66700;
+  --color-primary-cran-700: #AD5300;
+  --color-primary-cran-800: #854000;
+  --color-primary-cran-900: #5C2C00;
+
+  /* Secondary Colors */
+  --color-secondary-cran-50: #F7FFEE;
+  --color-secondary-cran-100: #E6FFC8;
+  --color-secondary-cran-200: #D5FFA2;
+  --color-secondary-cran-300: #C4FF7C;
+  --color-secondary-cran-400: #B1FB55;
+  --color-secondary-cran-500: #93D93D;
+  --color-secondary-cran-600: #77B728;
+  --color-secondary-cran-700: #5D9518;
+  --color-secondary-cran-800: #45730B;
+  --color-secondary-cran-900: #2E5103;
+
+  /* Info Colors */
+  --color-info-cran-50: #e5fffd;
+  --color-info-cran-100: #B7FFFA;
+  --color-info-cran-200: #8AFFF7;
+  --color-info-cran-300: #5CFFF4;
+  --color-info-cran-400: #2EFFF1;
+  --color-info-cran-500: #00FFEE;
+  --color-info-cran-600: #00D6C8;
+  --color-info-cran-700: #00ADA2;
+  --color-info-cran-800: #00857C;
+  --color-info-cran-900: #005C56;
+
+  /* Accent Colors */
+  --color-accent-cran-50: #FFEDFD;
+  --color-accent-cran-100: #FFC7F9;
+  --color-accent-cran-200: #FFA0F5;
+  --color-accent-cran-300: #FF79F1;
+  --color-accent-cran-400: #FD51EC;
+  --color-accent-cran-500: #DB3BCB;
+  --color-accent-cran-600: #B928AB;
+  --color-accent-cran-700: #97198A;
+  --color-accent-cran-800: #750D6B;
+  --color-accent-cran-900: #53054B;
+
+  /* Surface Colors */
+  --color-surface-cran-white: #ffffff;
+  --color-surface-cran-50: #F5F5F7;
+  --color-surface-cran-100: #EAEAED;
+  --color-surface-cran-200: #D2D2D8;
+  --color-surface-cran-300: #BBBBC4;
+  --color-surface-cran-400: #A5A5B0;
+  --color-surface-cran-500: #8F8F9B;
+  --color-surface-cran-600: #7A7A87;
+  --color-surface-cran-700: #666672;
+  --color-surface-cran-800: #52525E;
+  --color-surface-cran-900: #3F3F4A;
+  --color-black: #000000;
+
+  /* Error Colors */
+  --color-error-cran-50: #FFEAEA;
+  --color-error-cran-100: #FFBBBB;
+  --color-error-cran-200: #FF8C8C;
+  --color-error-cran-300: #FF5D5D;
+  --color-error-cran-400: #FF2E2E;
+  --color-error-cran-500: #E51C1C;
+  --color-error-cran-600: #C30B0B;
+  --color-error-cran-700: #A10000;
+  --color-error-cran-800: #7F0000;
+  --color-error-cran-900: #5D0000;
+
+  /* Success Colors */
+  --color-success-cran-50: #EAFFEA;
+  --color-success-cran-100: #BBFFBB;
+  --color-success-cran-200: #8CFF8C;
+  --color-success-cran-300: #5EFF5E;
+  --color-success-cran-400: #2FFF2F;
+  --color-success-cran-500: #1CE51C;
+  --color-success-cran-600: #0CC30C;
+  --color-success-cran-700: #00A100;
+  --color-success-cran-800: #007F00;
+  --color-success-cran-900: #005D00;
+
+  /* Warning Colors */
+  --color-warning-cran-50: #FFFAE8;
+  --color-warning-cran-100: #FFF2BE;
+  --color-warning-cran-200: #FFEA95;
+  --color-warning-cran-300: #FFE16B;
+  --color-warning-cran-400: #FFD942;
+  --color-warning-cran-500: #F2C617;
+  --color-warning-cran-600: #C9A204;
+  --color-warning-cran-700: #A18100;
+  --color-warning-cran-800: #786000;
+  --color-warning-cran-900: #4F3F00;
+}
