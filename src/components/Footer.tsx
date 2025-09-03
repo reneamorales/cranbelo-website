@@ -8,9 +8,9 @@ export const Footer = () => {
         <footer className="flex flex-col items-center bg-black section gap-3 md:gap-6 xl:gap-8 ">
             <a href="/" aria-label="Ir a la home" className="flex justify-center" >
                 <h1 className="pointer text-2xl leading-5 md:text-3xl md:leading-9 lg:text-4xl lg:leading-12 font-extrabold">
-                    <span className="text-orange">{'{'}</span>
+                    <span className="text-brand-primary-strong">{'{'}</span>
                     <span className="text-white">Cranbelo</span>
-                    <span className="text-orange">{'}'}</span>
+                    <span className="text-brand-primary-strong">{'}'}</span>
                 </h1>
             </a>
             <div className="grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto text-white gap-3 md:gap-6 xl:gap-0 w-full">
@@ -19,11 +19,11 @@ export const Footer = () => {
                 <div className="flex flex-col container-inner">
                     <h2 className="title-footer">Links Frecuentes</h2>
                     <ul className="flex flex-col container-inner-content">
-                        <li><a href="/preguntas-frecuentes" className="text-content-footer">FAQs</a></li>
-                        <li><a href="/tyc" className="text-content-footer">Términos y Condiciones</a></li>
-                        <li><a href="/reglamentos" className="text-content-footer">Reglamentos</a></li>
-                        <li><a href="/beneficios" className="text-content-footer">Beneficios</a></li>
-                        <li><a href="/formas-de-pago" className="text-content-footer">Formas de Pago</a></li>
+                        <li><a href="/preguntas-frecuentes" className="text-content-footer hover:text-brand-secondary-medium">FAQs</a></li>
+                        <li><a href="/tyc" className="text-content-footer hover:text-brand-secondary-medium">Términos y Condiciones</a></li>
+                        <li><a href="/reglamentos" className="text-content-footer hover:text-brand-secondary-medium">Reglamentos</a></li>
+                        <li><a href="/beneficios" className="text-content-footer hover:text-brand-secondary-medium">Beneficios</a></li>
+                        <li><a href="/formas-de-pago" className="text-content-footer hover:text-brand-secondary-medium">Formas de Pago</a></li>
                     </ul>
                 </div>
 
@@ -41,7 +41,7 @@ export const Footer = () => {
                         </li>
                     </ul>
 
-                    <a className="flex gap-1 items-center mt-4 md:mt-6 xl:mt-8 transition-all duration-200 hover:text-green hover:scale-98"
+                    <a className="flex gap-1 items-center mt-4 md:mt-6 xl:mt-8 transition-all duration-200 hover:text-brand-secondary-strong hover:scale-98"
                         href="https://wa.me/5490000000000?text=Hola,+me+gustar%C3%ADa+hacer+una+consulta+sobre+los+servicios+de+Cranbelo."
                         target="_blank"
                         rel="noopener noreferrer">
