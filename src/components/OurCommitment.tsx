@@ -2,7 +2,7 @@ export const OurCommitment = () => {
     return (
         <section
             aria-labelledby="our-commitment-title"
-            className="flex items-center justify-center bg-white-fa px-4 md:px-6 lg:px-24 xl:px-32 w-full py-28 md:py-32 xl:py-40"
+            className="flex items-center justify-center bg-surface-cran-25 px-4 md:px-6 lg:px-24 xl:px-32 w-full py-28 md:py-32 xl:py-40"
         >
             <div className="max-w-3xl w-full text-black text-sm md:text-base xl:text-lg">
                 <h2 id="our-commitment-title" className="sr-only">

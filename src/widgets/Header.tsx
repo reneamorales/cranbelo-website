@@ -61,9 +61,9 @@ export const Header = () => {
                 {/* Logo */}
                 <a href="/" aria-label="Ir a la home" >
                     <h1 className="pointer text-xl leading-5 md:text-3xl md:leading-9 lg:text-4xl lg:leading-12 font-extrabold">
-                        <span className="text-orange-accent">{'{'}</span>
+                        <span className="text-brand-primary-strong">{'{'}</span>
                         <span className="text-white">Cranbelo</span>
-                        <span className="text-orange-accent">{'}'}</span>
+                        <span className="text-brand-primary-strong">{'}'}</span>
                     </h1>
                 </a>
 
@@ -74,7 +74,7 @@ export const Header = () => {
                             <li key={item}>
                                 <a
                                     href={`#${item.toLowerCase()}`}
-                                    className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-hover-link-white"
+                                    className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-brand-secondary-medium"
                                 >
                                     {item}
                                 </a>
