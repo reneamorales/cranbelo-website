@@ -295,23 +295,23 @@
 }
 
 .input-contact-form {
-  @apply w-full text-cran-surface-600 bg-cran-surface-50 border-[1.6px] md:border-[1.6px] xl:border-2 border-solid border-cran-surface-500 rounded-sm md:rounded-md px-2 py-1 md:px-3 md:py-2 xl:px-3.5 xl:py-2.5;
+  @apply w-full bg-neutral-primary hover:bg-neutral-secondary active:bg-neutral-tertiary border-[1.6px] md:border-[1.6px] xl:border-2 border-solid border-inverse-neutral-primary hover:border-inverse-neutral-secondary rounded-sm md:rounded-md px-2 py-1 md:px-3 md:py-2 xl:px-3.5 xl:py-2.5;
 }
 
 .text-input-form {
-  @apply text-xs leading-lh-xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base font-medium;
+  @apply text-fg-neutral-disabled hover:text-fg-neutral-primary active:text-fg-neutral-secondary text-xs leading-lh-xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base font-medium;
 }
 
 .btn-contact-form {
-  @apply w-auto font-bold px-5 py-2 md:px-6 md:py-2.5 xl:px-7 xl:py-3 hover:bg-orange/90 transition-colors;
+  @apply w-auto px-5 py-2 md:px-6 md:py-2.5 xl:px-7 xl:py-3 bg-brand-primary-medium text-neutral-disabled hover:bg-brand-primary-strong hover:text-surface-cran-black active:bg-brand-primary-strong active:text-neutral-primary transition-colors text-xs leading-lh-xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base font-bold;
 }
 
 .title-footer {
-  @apply font-bold text-xs leading-lh-xs md:text-base md:leading-lh-base xl:text-lg xl:leading-lh-xl text-orange;
+  @apply font-bold text-brand-primary-strong text-xs leading-lh-xs md:text-base md:leading-lh-base xl:text-lg xl:leading-lh-xl;
 }
 
 .text-content-footer {
-  @apply text-xxs leading-lh-2xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base hover:text-green-300 transition-colors;
+  @apply text-xxs leading-lh-2xs md:text-sm md:leading-lh-sm xl:text-base xl:leading-lh-base transition-colors;
 }
 
 .container-inner {
