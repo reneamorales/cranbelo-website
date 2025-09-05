@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router-dom";
 import Menu from "../icons/Menu";
 
 export const Header = () => {
@@ -59,13 +60,13 @@ export const Header = () => {
         <header className={headerClass}>
             <div className="flex justify-between items-center w-full h-auto">
                 {/* Logo */}
-                <a href="/" aria-label="Ir a la home" >
+                <Link to="/" aria-label="Ir a la home">
                     <h1 className="pointer text-xl leading-5 md:text-3xl md:leading-9 lg:text-4xl lg:leading-12 font-extrabold">
                         <span className="text-brand-primary-strong">{'{'}</span>
                         <span className="text-white">Cranbelo</span>
                         <span className="text-brand-primary-strong">{'}'}</span>
                     </h1>
-                </a>
+                </Link>
 
                 {/* Menú Desktop */}
                 <nav className="hidden md:flex flex-1 min-w-[362px] max-w-[576px] w-full">
