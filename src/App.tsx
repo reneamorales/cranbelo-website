@@ -1,13 +1,12 @@
 import './App.css'
-import { Header } from './components/Header'
+import { AppRouter } from './AppRouter/AppRouter'
 
 function App() {
 
   return (
-    <>
-      <Header />
-
-    </>
+    <div className="App">
+      <AppRouter />
+    </div>
   )
 }
 
