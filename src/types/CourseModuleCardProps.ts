@@ -1,6 +1,7 @@
 export type CourseModuleCardProps = {
-  module: string;
+  id: number;
+  title: string;
   description: string;
-  items: string[];
+  lessons: string[];
   duration: string;
 };

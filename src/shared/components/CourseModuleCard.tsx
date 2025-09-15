@@ -1,17 +1,6 @@
+import type { CourseModuleCardProps } from '../../types/CourseModuleCardProps';
 
-interface CourseModuleCardProps {
-  module: string;
-  description: string;
-  items: string[];
-  duration: string;
-}
-
-export const CourseModuleCard: React.FC<CourseModuleCardProps> = ({
-  module,
-  description,
-  items,
-  duration
-}) => {
+export const CourseModuleCard: React.FC<CourseModuleCardProps> = ({ id, title, description, lessons, duration }) => {
   const cardClasses = [
     "flex flex-col",
     "border-solid border-brand-secondary-strong",
@@ -24,7 +13,7 @@ export const CourseModuleCard: React.FC<CourseModuleCardProps> = ({
   return (
     <article className={cardClasses}>
       <h4 className="text-neutral-primary font-extrabold h4">
-        {module}
+        {title}
       </h4>
 
       <div className="flex flex-col spacing-subtle">
@@ -33,17 +22,17 @@ export const CourseModuleCard: React.FC<CourseModuleCardProps> = ({
         </p>
 
         <ul className="list-disc pl-5">
-          {items.map((item, index) => (
+          {lessons.map((lesson, index) => (
             <li
-              key={`${module}-item-${index}`}
+              key={`${id}-item-${lesson}-${index}`}
               className="text-neutral-secondary agenda-card-body"
             >
-              {item}
+              {lesson}
             </li>
           ))}
         </ul>
 
-        <p className="font-italic text-neutral-secondary">
+        <p className="italic text-neutral-secondary">
           {duration}
         </p>
       </div>
