@@ -1,4 +1,4 @@
-import type { Course } from "../types/Course";
+import type { CourseList } from "../types/CourseList";
 
 import marketingDigital from "../assets/img/courses/marketing-digital-avanzado.webp";
 import cienciaDeDatos from "../assets/img/courses/ciencia-de-datos.webp";
@@ -10,7 +10,7 @@ import seo from "../assets/img/courses/estrategia-de-seo.webp";
 import gestionDeProyectosAgiles from "../assets/img/courses/metodologías-ágiles.webp";
 import fundamentosDeMachineLearning from "../assets/img/courses/machine-learning.webp";
 
-const courses: Course[] = [
+const courses: CourseList[] = [
   {
     id: 1,
     title: "Marketing Digital Avanzado",
