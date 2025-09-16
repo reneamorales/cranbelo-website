@@ -7,7 +7,7 @@ import { LearningModeBanner } from '../components/LearningModeBanner'
 import { Report } from '../components/Report'
 import { ContactForm } from '../components/ContactForm'
 
-import courses from "../data/Courses";
+import courses from "../data/CoursesList";
 import { testimonialsPlatform } from '../data/TestimonialsPlatform'
 
 const Home = () => {
