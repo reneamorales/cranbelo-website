@@ -5,7 +5,7 @@ export const ContactForm = () => {
         <section className="contact-form-section flex flex-col items-center justify-center bg-darkGray w-full h-auto section">
 
             <h2 className="h2 text-brand-secondary-strong">Déjanos tu contacto y a la brevedad te contactaremos.</h2>
-            <div className="contact-form-container flex flex-col bg-surface-cran-50 px-10 py-9 xl:px-20 xl:py-28 rounded-lg md:rounded-xl xl:rounded-2xl gap-6 md:gap-8 xl:gap-10">
+            <div className="contact-form-container flex flex-col bg-surface-cran-50 px-10 py-9 xl:px-20 xl:py-28 rounded-lg md:rounded-xl xl:rounded-2xl gap-6 md:gap-8 xl:gap-10 max-w-[620px] md:max-w-[768px] xl:max-w-[1024px] w-full">
 
                 <form action="" className="grid grid-cols-1 md:grid-row flex-wrap justify-center place-items-center gap-6 md:gap-7 xl:gap-8">
 
