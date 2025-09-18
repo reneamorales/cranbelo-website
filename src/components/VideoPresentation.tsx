@@ -11,8 +11,7 @@ export function VideoPresentation() {
         <h2 className="text-brand-primary-strong mb-6 md:mb-8 xl:mb-10 h2">Conoce Más Sobre Nosotros</h2>
 
         <div
-          className={`relative bg-surface-cran-black rounded-lg md:rounded-xl xl:rounded-3xl overflow-hidden cursor-pointer transition-transform duration-300 ${isHovered ? "scale-102" : "scale-100"
-            }`}
+          className={`relative bg-surface-cran-black rounded-lg md:rounded-xl xl:rounded-3xl overflow-hidden cursor-pointer  transition-transform duration-300 ${isHovered ? "scale-102 shadow-xl" : "scale-100 shadow-none"}`}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
