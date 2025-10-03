@@ -114,24 +114,24 @@ export function TeamProfiles() {
                 cardsVisible[index] ? "scale-100 opacity-100 translate-y-0" : "scale-95 opacity-0 translate-y-4"
               }`}
             >
-              <div className="text-center spacing-medium">
-                <div className="relative w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 mx-auto mb-4">
+              <article className="text-start spacing-subtle">
+                <div className="relative">
                   <img
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
-                    className="w-full h-full rounded-full object-cover"
+                    className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-lg md:text-xl xl:text-2xl leading-lh-xl md:leading-lh-2xl xl:leading-lh-altxl font-bold text-inverse-neutral-primary">
+                <h3 className="text-xs md:text-sm xl:text-base leading-lh-xs md:leading-lh-sm xl:leading-lh-base font-bold text-black">
                   {member.name}
                 </h3>
-                <p className="text-sm md:text-base xl:text-lg leading-lh-sm md:leading-lh-base xl:leading-lh-xl text-brand-primary-strong font-medium">
+                <p className="text-xs md:text-sm xl:text-base leading-lh-xs md:leading-lh-sm xl:leading-lh-base font-bold text-inverse-neutral-secondary">
                   {member.role}
                 </p>
                 <p className="text-sm md:text-base leading-lh-sm md:leading-lh-base text-fg-neutral-secondary">
                   {member.description}
                 </p>
-              </div>
+              </article>
             </div>
           ))}
         </div>
