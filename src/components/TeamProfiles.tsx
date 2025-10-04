@@ -1,41 +1,53 @@
 import { useEffect, useRef, useState } from "react"
+import member1 from "../assets/img/team/profile-team/member-1.webp"
+import member2 from "../assets/img/team/profile-team/member-2.webp"
+import member3 from "../assets/img/team/profile-team/member-3.webp"
+import member4 from "../assets/img/team/profile-team/member-4.webp"
+import member5 from "../assets/img/team/profile-team/member-5.webp"
+import member6 from "../assets/img/team/profile-team/member-6.webp"
 
 const teamMembers = [
   {
-    name: "Ana García",
-    role: "CEO & Fundadora",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
-    description: "Experta en estrategia empresarial con más de 15 años de experiencia.",
+    name: "Javier Mendoza",
+    role: "Fundador & CEO (Chief Executive Officer)",
+    image: member1,
+    expertise: "Estrategia de Negocios y Marketing Digital",
+    description: "Visionario de la plataforma. Define la estrategia de negocio y supervisa la efectividad de las campañas de Marketing Digital Avanzado.",
   },
   {
-    name: "Carlos Rodríguez",
-    role: "Director de Tecnología",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-    description: "Líder en innovación tecnológica y transformación digital.",
+    name: "Andrea Reyes",
+    role: "Co-Fundadora & CTO",
+    image: member2,
+    expertise: "Programación Backend y Arquitectura Cloud",
+    description: "Lidera la infraestructura tecnológica, enfocándose en la escalabilidad del servidor y la seguridad de los sistemas de datos.",
   },
   {
-    name: "María López",
-    role: "Directora de Marketing",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-    description: "Especialista en marketing digital y crecimiento empresarial.",
+    name: "Carlos Torres",
+    role: "Co-Fundador & CMO",
+    image: member3,
+    expertise: "Estrategias de SEO y Growth Hacking",
+    description: "Experto en adquisición de usuarios. Se enfoca en optimizar el posicionamiento orgánico (SEO) y las estrategias de crecimiento rápido (Growth).",
   },
   {
-    name: "David Chen",
-    role: "Director Financiero",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-    description: "Experto en finanzas corporativas y análisis de inversiones.",
+    name: "Sofía Alarcón",
+    role: "Co-Fundadora & CPO",
+    image: member4,
+    expertise: "Diseño UX/UI y Gestión de Proyectos Ágiles",
+    description: "Define la visión del producto y la experiencia de usuario (UX/UI). Aplica metodologías Ágiles (Scrum) para la ejecución del desarrollo.",
   },
   {
-    name: "Sofia Martínez",
-    role: "Directora de Operaciones",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop&crop=face",
-    description: "Especialista en optimización de procesos y gestión operativa.",
+    name: "Ricardo Castro",
+    role: "Miembro del Equipo & Lead Developer",
+    image: member5,
+    expertise: "Programación Frontend y Chatbot Development",
+    description: "Arquitecto de las interfaces interactivas (Frontend). También es responsable de implementar el soporte conversacional con Chatbots e IA.",
   },
   {
-    name: "Roberto Silva",
-    role: "Director de Ventas",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
-    description: "Líder en desarrollo de negocios y relaciones comerciales.",
+    name: "Laura Vidal",
+    role: "Miembro del Equipo & Lead Instructor",
+    image: member6,
+    expertise: "Ciencia de Datos y Fundamentos de Machine Learning",
+    description: "Máxima experta en Data Science. Diseña los currículos de Machine Learning y la aplicación práctica del análisis de datos.",
   },
 ]
 
