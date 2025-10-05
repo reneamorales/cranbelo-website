@@ -33,7 +33,7 @@ export function MissionAndValues() {
         <div className="spacing-medium text-center">
           <h2 className="h2 sr-only">Nuestros Valores</h2>
           <p className="font-medium italic text-inverse-neutral-tertiary text-lg leading-lh-lg md:text-xl md:leading-lh-xl xl:text-2xl xl:leading-lh-2xl">
-            Nos guiamos por valores como la <strong>innovación, la colaboración y la excelencia.</strong> Nuestro objetivo es empoderar a  cada estudiante para que logre sus sueños profesionales.
+            Nos guiamos por valores como la <strong className="text-brand-primary-strong">innovación, la colaboración y la excelencia.</strong> Nuestro objetivo es empoderar a  cada estudiante para que logre sus sueños profesionales.
           </p>
         </div>
       </div>
