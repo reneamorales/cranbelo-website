@@ -15,7 +15,7 @@ export interface Course {
     duration: string;
   }[];
   pricing: {
-    plan: string;
+    plan: "Pago Único" | "Suscripción";
     price: number;
   }[];
 }
