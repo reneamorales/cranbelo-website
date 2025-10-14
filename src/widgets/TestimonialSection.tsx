@@ -4,7 +4,7 @@ import { TestimonialPlatformCard } from "../shared/components/TestimonialPlatfor
 import { useRef, useState, useEffect } from "react";
 import clsx from "clsx";
 
-export const TestimonialSection = ({ testimonialsPlatform }) => {
+export const TestimonialSection = ({ testimonialsPlatform }: { testimonialsPlatform: TestimonialPlatformCardProps[];}) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [atStart, setAtStart] = useState(true);
   const [atEnd, setAtEnd] = useState(false);
