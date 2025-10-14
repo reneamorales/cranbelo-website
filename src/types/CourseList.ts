@@ -2,6 +2,7 @@ import type { JSX } from "react";
 
 export interface CourseList {
   id: number;
+  slug: string;
   title: string;
   image: string;
   description: string;

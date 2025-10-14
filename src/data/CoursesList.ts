@@ -13,6 +13,7 @@ import fundamentosDeMachineLearning from "../assets/img/courses/machine-learning
 const courses: CourseList[] = [
   {
     id: 1,
+    slug: "marketing-digital-avanzado",
     title: "Marketing Digital Avanzado",
     image: marketingDigital,
     description:
@@ -20,6 +21,7 @@ const courses: CourseList[] = [
   },
   {
     id: 2,
+    slug: "ciencia-de-datos",
     title: "Ciencia de Datos",
     image: cienciaDeDatos,
     description:
@@ -27,6 +29,7 @@ const courses: CourseList[] = [
   },
   {
     id: 3,
+    slug: "diseno-ux-ui",
     title: "Diseño UX/UI",
     image: disenoUXUI,
     description:
@@ -34,6 +37,7 @@ const courses: CourseList[] = [
   },
   {
     id: 4,
+    slug: "programacion-backend",
     title: "Programación Backend",
     image: programacionBackend,
     description:
@@ -41,6 +45,7 @@ const courses: CourseList[] = [
   },
   {
     id: 5,
+    slug: "programacion-frontend",
     title: "Programación Frontend",
     image: programacionFrontend,
     description:
@@ -48,6 +53,7 @@ const courses: CourseList[] = [
   },
   {
     id: 6,
+    slug: "chatbot-101",
     title: "Chatbot 101",
     image: chatbot101,
     description:
@@ -55,6 +61,7 @@ const courses: CourseList[] = [
   },
   {
     id: 7,
+    slug: "estrategias-de-seo",
     title: "Estrategías de SEO",
     image: seo,
     description:
@@ -62,6 +69,7 @@ const courses: CourseList[] = [
   },
   {
     id: 8,
+    slug: "gestion-de-proyectos-agiles",
     title: "Gestión de Proyectos Ágiles",
     image: gestionDeProyectosAgiles,
     description:
@@ -69,6 +77,7 @@ const courses: CourseList[] = [
   },
   {
     id: 9,
+    slug: "fundamentos-de-machine-learning",
     title: "Fundamentos de Machine Learning",
     image: fundamentosDeMachineLearning,
     description:
