@@ -25,7 +25,7 @@ export const CoursesLists = ({ courses }: Props) => {
             <CourseCard key={course.id} {...course}
               cta={
                 <Link
-                  to={`/course/${course.id}`}
+                  to={`/course/${course.slug}`}
                   className="mt-auto text-center font-semibold text-sm md:text-lg xl:text-[26px] sm:px-4 px-5 py-1 md:px-20 md:py-4 xl:px-12 xl:py-2.5 bg-brand-secondary-strong/15 hover:bg-brand-secondary-strong/20 text-neutral-primary hover:text-brand-secondary-strong border-[1.6px] md:border-[1.8px] xl:border-2 border-transparent hover:border-brand-secondary-strong active:border-transparent active:bg-neutral-secondary active:text-secondary-cran-900 w-full inline-block rounded-md transition-all duration-300 ease-in-out"
                 >
                   Ver más detalles

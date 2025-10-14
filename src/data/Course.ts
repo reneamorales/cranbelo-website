@@ -1,5 +1,6 @@
 export interface Course {
   id: number;
+  slug: string;
   title: string;
   description: string;
   image: string;
@@ -23,6 +24,7 @@ export interface Course {
 export const courses: Course[] = [
   {
     id: 1,
+    slug: "marketing-digital-avanzado",
     title: "Marketing Digital Avanzado",
     description: "Aprendé diseño centrado en el usuario",
     image: "/images/ux.png",
@@ -121,10 +123,14 @@ export const courses: Course[] = [
         duration: "Duración: 2.5 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 20 }, { plan: "Pago Único", price: 100 }],
+    pricing: [
+      { plan: "Suscripción", price: 20 },
+      { plan: "Pago Único", price: 100 },
+    ],
   },
   {
     id: 2,
+    slug: "ciencia-de-datos",
     title: "Ciencia de Datos",
     description:
       "Transformá datos en conocimiento accionable para tomar decisiones estratégicas.",
@@ -198,10 +204,14 @@ export const courses: Course[] = [
         duration: "Duración: 4 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 25 }, { plan: "Pago Único", price: 120 }],
+    pricing: [
+      { plan: "Suscripción", price: 25 },
+      { plan: "Pago Único", price: 120 },
+    ],
   },
   {
     id: 3,
+    slug: "diseno-ux-ui",
     title: "Diseño UX/UI",
     description:
       "Creá experiencias de usuario intuitivas y atractivas para productos digitales.",
@@ -275,10 +285,14 @@ export const courses: Course[] = [
         duration: "Duración: 2.5 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 20 }, { plan: "Pago Único", price: 110 }],
+    pricing: [
+      { plan: "Suscripción", price: 20 },
+      { plan: "Pago Único", price: 110 },
+    ],
   },
   {
     id: 4,
+    slug: "programacion-backend",
     title: "Programación Backend",
     description:
       "Creá la lógica detrás de aplicaciones web robustas y escalables.",
@@ -352,10 +366,14 @@ export const courses: Course[] = [
         duration: "Duración: 2.5 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 30 }, { plan: "Pago Único", price: 150 }],
+    pricing: [
+      { plan: "Suscripción", price: 30 },
+      { plan: "Pago Único", price: 150 },
+    ],
   },
   {
     id: 5,
+    slug: "programacion-frontend",
     title: "Programación Frontend",
     description:
       "Creá interfaces de usuario interactivas y dinámicas para la web.",
@@ -428,10 +446,14 @@ export const courses: Course[] = [
         duration: "Duración: 2.5 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 25 }, { plan: "Pago Único", price: 130 }],
+    pricing: [
+      { plan: "Suscripción", price: 25 },
+      { plan: "Pago Único", price: 130 },
+    ],
   },
   {
     id: 6,
+    slug: "chatbot-101",
     title: "Chatbot 101",
     description:
       "Diseñá e implementá chatbots inteligentes para automatizar interacciones.",
@@ -505,10 +527,14 @@ export const courses: Course[] = [
         duration: "Duración: 3 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 20 }, { plan: "Pago Único", price: 100 }],
+    pricing: [
+      { plan: "Suscripción", price: 20 },
+      { plan: "Pago Único", price: 100 },
+    ],
   },
   {
     id: 7,
+    slug: "estrategias-de-seo",
     title: "Estrategias de SEO",
     description:
       "Maximizá la visibilidad de tu sitio web en motores de búsqueda.",
@@ -581,12 +607,17 @@ export const courses: Course[] = [
         duration: "Duración: 3 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 20 }, { plan: "Pago Único", price: 100 }],
+    pricing: [
+      { plan: "Suscripción", price: 20 },
+      { plan: "Pago Único", price: 100 },
+    ],
   },
   {
     id: 8,
+    slug: "gestion-de-proyectos-agiles",
     title: "Gestión de Proyectos Ágiles",
-    description: "Liderá equipos y proyectos con metodologías ágiles como Scrum y Kanban.",
+    description:
+      "Liderá equipos y proyectos con metodologías ágiles como Scrum y Kanban.",
     image: "/images/agile.png",
     sections: [
       {
@@ -656,10 +687,14 @@ export const courses: Course[] = [
         duration: "Duración: 3 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 20 }, { plan: "Pago Único", price: 100 }],
+    pricing: [
+      { plan: "Suscripción", price: 20 },
+      { plan: "Pago Único", price: 100 },
+    ],
   },
   {
     id: 9,
+    slug: "fundamentos-de-machine-learning",
     title: "Fundamentos de Machine Learning",
     description:
       "Introducción a la inteligencia artificial, algoritmos y modelos predictivos.",
@@ -733,6 +768,9 @@ export const courses: Course[] = [
         duration: "Duración: 2.5 horas",
       },
     ],
-    pricing: [{ plan: "Suscripción", price: 30 }, { plan: "Pago Único", price: 150 }],
+    pricing: [
+      { plan: "Suscripción", price: 30 },
+      { plan: "Pago Único", price: 150 },
+    ],
   },
 ];
