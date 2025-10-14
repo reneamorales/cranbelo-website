@@ -1,38 +1,22 @@
-import SectionBlock from '../components/SectionBlock';
+import { courses } from '../data/Course';
 import { CourseModulesSection } from '../widgets/CourseModulesSection';
 import { Modality } from '../components/Modality';
-
-import { modules } from '../data/Modules';
 import { PricingSection } from '../widgets/PricingSection';
-
+import { IntroCourseSection } from '../widgets/IntroCourseSection';
+import { useParams, Navigate } from 'react-router-dom';
 
 const CoursePage = () => {
+  const { id } = useParams<{ id: string }>();
+  const selectedCourse = courses.find(c => c.slug === id);
+
+  if (!selectedCourse) return <Navigate to="/404" replace />;
+
   return (
     <>
-    <div className="flex flex-col items-center bg-darkGray section">
-      <SectionBlock
-        label="Curso"
-        title="Marketing Digital Avanzado"
-        subtitle="Qué vas a aprender:"
-        body="En este curso, aprenderás a diseñar y ejecutar campañas de marketing digital efectivas. Dominarás herramientas como Google Ads y Facebook Ads, además de desarrollar habilidades en SEO y análisis de datos para maximizar el impacto de tus campañas."
-      />
-
-    </div>
-    <div className="flex flex-col items-center bg-darkGray section">
-    <SectionBlock
-        subtitle="Requisitos previos:"
-        body={[
-          "Una computadora con acceso a internet",
-          "Conexión estable a internet",
-          "Conocimientos básicos de marketing (para cursos como Marketing Digital)",
-          "Software necesario instalado (como un navegador web)"
-        ]}
-        variant="subtitle-first"
-      />
-      </div>
-    <CourseModulesSection modules={modules} />
-    <Modality />
-    <PricingSection />
+      <IntroCourseSection sections={selectedCourse.sections} title={selectedCourse.title} />
+      <Modality />
+      <CourseModulesSection modules={selectedCourse.modules} />
+      <PricingSection pricing={selectedCourse.pricing} title={selectedCourse.title} />
     </>
   );
 };
