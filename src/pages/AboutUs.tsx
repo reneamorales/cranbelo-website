@@ -3,7 +3,8 @@ import { IntroTeamsSection } from "../components/IntroTeam"
 import { VideoPresentation } from "../components/VideoPresentation"
 import { MissionAndValues } from "../components/MissionAndValues"
 import { TeamProfiles } from "../components/TeamProfiles"
-import { Impact } from "../components/Impact" 
+import { Impact } from "../components/Impact"
+
 const AboutUs = () => {
     return (
         <>
@@ -11,8 +12,8 @@ const AboutUs = () => {
             <IntroTeamsSection />
             <VideoPresentation />
             <MissionAndValues />
-            < TeamProfiles />
-            < Impact />
+            <TeamProfiles />
+            <Impact />
         </>
     )
 }
