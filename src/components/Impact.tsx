@@ -11,7 +11,7 @@ export const Impact = () => {
                 </div>
 
                 <div className="flex flex-center justify-center container-image-impact">
-                    <img src={imageImpact} alt="Imagen de impacto social" className='w-full h-auto object-cover ' />
+                    <img src={imageImpact} alt="Imagen de impacto social" className='w-full h-auto object-cover rounded-lg md:rounded-xl lg:rounded-2xl' />
                 </div>
 
                 <div className="final-impact text-start grid spacing-medium">
