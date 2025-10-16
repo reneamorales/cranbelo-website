@@ -73,12 +73,12 @@ export const Header = () => {
                     <ul className="flex justify-between items-center w-full">
                         {["Home", "Cursos", "Nosotros", "FAQs", "Contacto"].map(item => (
                             <li key={item}>
-                                <a
-                                    href={`#${item.toLowerCase()}`}
+                                <Link
+                                    to={`/${item.toLowerCase()}`}
                                     className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-brand-secondary-medium"
                                 >
                                     {item}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -102,13 +102,13 @@ export const Header = () => {
                 <ul className="flex flex-col gap-4 p-4">
                     {["Home", "Cursos", "Nosotros", "FAQs", "Contacto"].map(item => (
                         <li key={item}>
-                            <a
-                                href={`#${item.toLowerCase()}`}
+                            <Link
+                                to={`/${item.toLowerCase()}`}
                                 className="text-base font-semibold text-white"
                                 onClick={closeMenu}
                             >
                                 {item}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>
