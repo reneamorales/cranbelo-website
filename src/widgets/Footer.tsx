@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MapPin from "../icons/MapPin"
 import { Whatsapp } from "../icons/Whatsapp"
 import Email from "../icons/Email"
@@ -19,11 +20,11 @@ export const Footer = () => {
                 <div className="flex flex-col container-inner">
                     <h2 className="title-footer">Links Frecuentes</h2>
                     <ul className="flex flex-col container-inner-content">
-                        <li><a href="/preguntas-frecuentes" className="text-content-footer hover:text-brand-secondary-medium">FAQs</a></li>
-                        <li><a href="/tyc" className="text-content-footer hover:text-brand-secondary-medium">Términos y Condiciones</a></li>
-                        <li><a href="/reglamentos" className="text-content-footer hover:text-brand-secondary-medium">Reglamentos</a></li>
-                        <li><a href="/beneficios" className="text-content-footer hover:text-brand-secondary-medium">Beneficios</a></li>
-                        <li><a href="/formas-de-pago" className="text-content-footer hover:text-brand-secondary-medium">Formas de Pago</a></li>
+                        <li><Link to="/preguntas-frecuentes" className="text-content-footer hover:text-brand-secondary-medium">FAQs</Link></li>
+                        <li><Link to="/tyc" className="text-content-footer hover:text-brand-secondary-medium">Términos y Condiciones</Link></li>
+                        <li><Link to="/reglamentos" className="text-content-footer hover:text-brand-secondary-medium">Reglamentos</Link></li>
+                        <li><Link to="/beneficios" className="text-content-footer hover:text-brand-secondary-medium">Beneficios</Link></li>
+                        <li><Link to="/formas-de-pagos" className="text-content-footer hover:text-brand-secondary-medium">Formas de Pago</Link></li>
                     </ul>
                 </div>
 
