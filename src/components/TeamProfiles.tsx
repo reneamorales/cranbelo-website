@@ -149,7 +149,7 @@ export function TeamProfiles() {
                       background: "linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0))"
                     }}
                   >
-                    <p className="text-xs md:text-sm xl:text-base leading-lh-xs md:leading-lh-sm xl:leading-lh-base font-bold inline-flex bg-brand-primary-subtle text-brand-primary-strong rounded-xl px-2">
+                    <p className="text-xs md:text-sm xl:text-base leading-lh-xs md:leading-lh-sm xl:leading-lh-base font-medium inline-flex bg-brand-primary-subtle text-brand-primary-strong rounded-xl px-2">
                       {member.role}
                     </p>
                     <h3 className="text-sm md:text-base xl:text-xl leading-lh-sm md:leading-lh-base xl:leading-lh-xl font-bold text-neutral-primary">
