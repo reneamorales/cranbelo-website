@@ -58,7 +58,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <section className="contact-form-section flex flex-col items-center justify-center bg-darkGray w-full h-auto section">
+    <section id="contacto" className="contact-form-section flex flex-col items-center justify-center bg-darkGray w-full h-auto section">
       <h2 className="h2 text-brand-secondary-strong">
         Déjanos tu contacto y a la brevedad te contactaremos.
       </h2>
