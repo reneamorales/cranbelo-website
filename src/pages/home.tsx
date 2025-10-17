@@ -9,8 +9,22 @@ import { ContactForm } from '../components/ContactForm'
 
 import courses from "../data/CoursesList";
 import { testimonialsPlatform } from '../data/TestimonialsPlatform'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const Home = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+            const element = document.querySelector(location.hash);
+            if (element) {
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+    }, [location]);
     return (
         <>
             <Hero />
