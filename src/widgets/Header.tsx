@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
+import { ScrollLink } from "../components/ScrollLink";
 import Menu from "../icons/Menu";
 
 export const Header = () => {
@@ -71,14 +72,29 @@ export const Header = () => {
                 {/* Menú Desktop */}
                 <nav className="hidden md:flex flex-1 min-w-[362px] max-w-[576px] w-full">
                     <ul className="flex justify-between items-center w-full">
-                        {["Home", "Cursos", "Nosotros", "FAQs", "Contacto"].map(item => (
-                            <li key={item}>
-                                <Link
-                                    to={`/${item.toLowerCase()}`}
-                                    className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-brand-secondary-medium"
-                                >
-                                    {item}
-                                </Link>
+                        {[
+                            { name: "Home", path: "/home" },
+                            { name: "Cursos", path: "/cursos" },
+                            { name: "Nosotros", path: "/nosotros" },
+                            { name: "FAQs", path: "/preguntas-frecuentes" },
+                            { name: "Contacto", path: "/#contacto", isScroll: true }
+                        ].map(item => (
+                            <li key={item.name}>
+                                {item.isScroll ? (
+                                    <ScrollLink
+                                        to={item.path}
+                                        className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-brand-secondary-medium"
+                                    >
+                                        {item.name}
+                                    </ScrollLink>
+                                ) : (
+                                    <Link
+                                        to={item.path}
+                                        className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-brand-secondary-medium"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                )}
                             </li>
                         ))}
                     </ul>
@@ -100,14 +116,18 @@ export const Header = () => {
                     }`}
             >
                 <ul className="flex flex-col gap-4 p-4">
-                    {["Home", "Cursos", "Nosotros", "FAQs", "Contacto"].map(item => (
-                        <li key={item}>
+                    {[{ name: "Home", path: "/home" },
+                    { name: "Cursos", path: "/cursos" },
+                    { name: "Nosotros", path: "/nosotros" },
+                    { name: "FAQs", path: "/preguntas-frecuentes" },
+                    { name: "Contacto", path: "/#contacto" }
+                    ].map(item => (
+                        <li key={item.name}>
                             <Link
-                                to={`/${item.toLowerCase()}`}
-                                className="text-base font-semibold text-white"
-                                onClick={closeMenu}
+                                to={item.path}
+                                className="pointer text-base md:text-lg font-semibold leading-8 text-white transition-colors duration-300 ease-in-out hover:text-brand-secondary-medium"
                             >
-                                {item}
+                                {item.name}
                             </Link>
                         </li>
                     ))}
