@@ -6,12 +6,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Marketing Digital Avanzado",
     pricing: [
       {
-        type: "Pago Único",
-        price: "80.000",
+        plan: "Pago Único",
+        price: 80.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "10.000",
+        plan: "Suscripción",
+        price: 10.000,
       },
     ],
   },
@@ -20,12 +20,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Ciencia de Datos",
     pricing: [
       {
-        type: "Pago Único",
-        price: "95.000",
+        plan: "Pago Único",
+        price: 95.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "12.000 ",
+        plan: "Suscripción",
+        price: 12.000 ,
       },
     ],
   },
@@ -34,12 +34,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Diseño UX/UI",
     pricing: [
       {
-        type: "Pago Único",
-        price: "85.000",
+        plan: "Pago Único",
+        price: 85.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "11.000 ",
+        plan: "Suscripción",
+        price: 11.000 ,
       },
     ],
   },
@@ -48,12 +48,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Programación Backend",
     pricing: [
       {
-        type: "Pago Único",
-        price: "90.000",
+        plan: "Pago Único",
+        price: 90.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "11.500 ",
+        plan: "Suscripción",
+        price: 11.500,
       },
     ],
   },
@@ -62,12 +62,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Programación Frontend",
     pricing: [
       {
-        type: "Pago Único",
-        price: "85.000",
+        plan: "Pago Único",
+        price: 85.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "$11.000 ",
+        plan: "Suscripción",
+        price: 11.000,
       },
     ],
   },
@@ -76,12 +76,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Chatbot 101",
     pricing: [
       {
-        type: "Pago Único",
-        price: "$75.000",
+        plan: "Pago Único",
+        price: 75.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "$9.500 ",
+        plan: "Suscripción",
+        price: 9.500,
       },
     ],
   },
@@ -90,12 +90,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Estrategías de SEO",
     pricing: [
       {
-        type: "Pago Único",
-        price: "$80.000",
+        plan: "Pago Único",
+        price: 80.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "$10.000 ",
+        plan: "Suscripción",
+        price: 10.000,
       },
     ],
   },
@@ -104,12 +104,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Gestión de Proyectos Ágiles",
     pricing: [
       {
-        type: "Pago Único",
-        price: "$82.000",
+        plan: "Pago Único",
+        price: 82.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "$10.500 ",
+        plan: "Suscripción",
+        price: 10.500,
       },
     ],
   },
@@ -118,12 +118,12 @@ export const pricingData: PricingDataProps[] = [
     title: "Fundamentos de Machine Learning",
     pricing: [
       {
-        type: "Pago Único",
-        price: "$98.000",
+        plan: "Pago Único",
+        price: 98.000,
       },
       {
-        type: "Suscripción Mensual",
-        price: "$12.500 ",
+        plan: "Suscripción",
+        price: 12.500,
       },
     ],
   },
