@@ -197,6 +197,10 @@
   --color-b-inverse-neutral-primary: var(--color-surface-cran-800);
   --color-b-inverse-neutral-secondary: var(--color-surface-cran-600);
 
+  /* Border semantic support */
+  --color-b-support: var(--color-support-cran-700);
+  --color-b-support-inverse: var(--color-support-cran-100);
+
   /* Border semantic sucess */
   --color-b-success: var(--color-success-cran-700);
   --color-b-success-inverse: var(--color-success-cran-100);
