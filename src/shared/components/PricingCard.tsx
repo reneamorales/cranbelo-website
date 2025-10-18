@@ -7,11 +7,11 @@ type PricingCardProps = {
 };
 {/*bg-gradient-to-br from-pink-lilac to-turkey-light */ }
 export const PricingCard = ({ plan, price, courseTitle, description, items }: PricingCardProps) => (
-  <div className="min-h-screen flex items-center justify-center bg-darkGray">
-    <div className="relative p-0.5 overflow-hidden rounded-lg bg-gradient-to-r from-turkey-light via-pink-lilac to-turkey-light">
-      <div className="absolute inset-0 bg-gradient-to-r from-turkey-light via-pink-lilac to-turkey-light spin-slow"></div>
+  <div className="min-h-screen flex items-center justify-center bg-darkGray w-full flex-shrink-0">
+    <div className="relative p-0.5 overflow-hidden rounded-lg bg-gradient-to-r from-turkey-light via-support-cran-300 to-turkey-light drop-shadow-sky-400 drop-shadow-2xl">
+      <div className="absolute inset-0 bg-gradient-to-r from-turkey-light via-support-cran-300 to-turkey-light spin-slow"></div>
       
-      <article className="grid spacind-medium relative pricing-card py-3.5 border rounded-md bg-deepGray min-w-[292px] max-w-[330px] md:m-w-[292px] md:max-w-[]">
+      <article className="grid spacind-medium relative pricing-card py-3.5 xl:py-6 border rounded-md bg-deepGray min-w-[292px] md:m-w-[292px] max-w-[330px] xl:max-w-[380px]">
 
         <span className="flex items-center justify-center text-center text-xl font-bold mb-6 text-inverse-neutral-primary bg-brand-primary-strong h-[42px]">{courseTitle}</span>
 
@@ -19,7 +19,7 @@ export const PricingCard = ({ plan, price, courseTitle, description, items }: Pr
 
           <div className="px-3 text-neutral-secondary">
 
-            <div className="spacing-subtle py-2 font-medium italic">
+            <div className="spacing-subtle py-2 xl:py-4 font-medium italic">
 
               <p className="text-sm">{description}</p>
 
