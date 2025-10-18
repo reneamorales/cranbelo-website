@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import type { CourseList } from "../../types/CourseList";
 
 export const CourseCard = ({ id, title, description, image, cta}: CourseList) => (
