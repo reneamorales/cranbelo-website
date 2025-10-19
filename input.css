@@ -295,13 +295,28 @@
     color: var(--color-cyan);
   }
   100% {
-    color: var(--color-orange-accent);
+    color: var(--color-orange);
   }
 }
 
 /* Clase para animar el texto  de hero */
 .color-animated {
   animation: colorCycle 10s ease-in-out 2s infinite;
+}
+
+/* Keyframes personalizados */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Clase para animación spin lenta */
+.spin-slow {
+  animation: spin 3s linear infinite;
 }
 
 .spacing-subtle {
